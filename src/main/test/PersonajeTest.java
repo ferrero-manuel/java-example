@@ -37,4 +37,13 @@ public class PersonajeTest {
 
         assertEquals(unPersonaje.getY(), -1);
     }
+
+    @Test
+    public void test20() {
+        Personaje unPersonaje = new Personaje();
+
+        unPersonaje.moverAbajo();
+
+        assertEquals(unPersonaje.getX(), 0);
+    }
 }
